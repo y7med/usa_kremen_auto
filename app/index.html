@@ -1,21 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/libs.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header d-flex align-items-center">
+        <div class="header__logo">
+          <a href="#"><img src="img/header-logo.png" alt="" /></a>
+        </div>
+        <div class="header__text">
+          <span class="wh">U.S.A.</span>
+          <span class="vio">KREMEN.</span>
+          <span class="red">AUTO</span>
+        </div>
+        <a class="header__phone-img" href="tel:380963280808"
+          ><img src="img/phone.svg" alt=""
+        /></a>
+        <a class="header__phone" href="tel:380963280808">+38 (096) 328 08 08</a>
+        <a class="header__btn" href="#">Заказать звонок</a>
+        <nav class="menu">
+          <div class="btn__menu">
+            <i><img src="img/menu.svg" alt="" /></i>
+          </div>
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Автомобили</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="top d-flex justify-content-between">
+      <div class="top__left">
+        <img src="img/top_car.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="top__right">
+          <div class="top__title">
+            Американское качество для вас.
+          </div>
+          <div class="top__text">
+            Мы поможем вам подобрать , приобрести и экспортировать любое
+            транспортное средство.
+          </div>
+          <div class="top__btn">
+            <a href="#"> Подобрать авто</a>
+          </div>
+        </div>
+      </div>
+      <div class="top__togo">
+        <a href="#"><img src="img/top__togo.svg" alt="" /></a>
+      </div>
+    </section>
+    <section class="procedure">
+      <div class="title__bg"></div>
+      <div class="title">
+        Процедура покупки.
+      </div>
+      <div class="procedure__items">
+            <div class="container">
+            <div class="procedure__items-1 d-flex justify-content-between">
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-1.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                        Подбор авто.
+                        </div>
+                        <div class="procedure__item-text">
+                        Наши менеджеры подбирают автомобиль в соответствии с вашими
+                        требованиями и бюджетом и предоставляют вам на рассмотрение.
+                        </div>
+                    </div>
+                </div>
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-2.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                        Заключение договора.
+                        </div>
+                        <div class="procedure__item-text">
+                        Мы подписываем официальный договор, который является гарантией
+                        соблюдения всех обязательств.
+                        </div>
+                    </div>
+                </div>
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-3.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                        Онлайн - торги.
+                        </div>
+                        <div class="procedure__item-text">
+                        Сотрудники компании участвуют в торгах, покупая ваш будущий
+                        автомобиль. Вы можете участвовать в торгах или получить
+                        видеозапись процесса.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="procedure__items-2 d-flex justify-content-between">
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-4.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                            Оплата.
+                        </div>
+                        <div class="procedure__item-text">
+                            По итогам аукциона Вам предоставляется счёт на оплату, которая осуществляется SWIFT переводом через банк.
+                        </div>
+                    </div>
+                </div>
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-5.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                            Доставка.
+                        </div>
+                        <div class="procedure__item-text">
+                            Автомобиль грузится в контейнер и доставляется в Украину. Срок доставки авто из США  6 -8 недель.
+                        </div>
+                    </div>
+                </div>
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-6.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                            Растаможка авто.
+                        </div>
+                        <div class="procedure__item-text">
+                            Оформление  документации согласно законопроекта №8487 занимает 10 рабочих дней. Оплата таможенных платежей производится клиентом лично.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="procedure__items-3 d-flex justify-content-between">
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-7.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                            Ремонт авто.
+                        </div>
+                        <div class="procedure__item-text">
+                            Мы предлагаем выполнение ремонта автомобиля “под ключ” или сопровождение в подборе запчастей и оказание качественного ремонта на СТО.
+                        </div>
+                    </div>
+                </div>
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-8.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                            Регистрация авто.
+                        </div>
+                        <div class="procedure__item-text">
+                            Регистрация авто производится согласно  законодательства. Помогаем получить сертификат соответствия европейским требованиям .
+                        </div>
+                    </div>
+                </div>
+                <div class="item__border">
+                    <div class="procedure__item">
+                        <div class="procedure__img">
+                        <img src="img/procedure-9.svg" alt="" />
+                        </div>
+                        <div class="procedure__item-title">
+                            Экономия 30-40%.
+                        </div>
+                        <div class="procedure__item-text">
+                            Поздравляем! Вы стали обладателем качественного автомобиля и убедились , что авто из США - это выгодно!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="title__bg"></div>
+        <div class="title">
+            Заказать подбор авто.
+        </div>
+        <div class="order__bg">
+        <div class="container">
+            <div class="order__items">
+                <div class="order__title">
+                    Давайте подберём вам автомобиль.
+                </div>
+                <div class="form__box">
+                    <form>
+                        <div class="form__inner">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="text" placeholder="Ваш телефон" required>
+                            <select name="" id="">
+                                <option label="Ваш бюджет"></option>
+                                <option value="">6 000-8 000 $</option>
+                                <option value="">8 000-10 000 $</option>
+                                <option value="">10 000-13 000 $</option>
+                                <option value="">13 000-15 000 $</option>
+                                <option value="">15 000-18 000 $</option>
+                                <option value="">18 000-23 000 $</option>
+                                <option value="">23 000-30 000 $</option>
+                                <option value="">30 000+ $</option>
+                            </select>
+                            <select name="" id="">
+                                <option label="Тип кузова"></option>
+                                <option value="">Седан</option>
+                                <option value="">Универсал</option>
+                                <option value="">Хетчбэк</option>
+                                <option value="">Купе</option>
+                                <option value="">Кабриолет</option>
+                                <option value="">Внедорожник</option>
+                                <option value="">Кроссовер</option>
+                                <option value="">Пикап</option>
+                                <option value="">Фургон</option>
+                            </select>
+                            <select name="" id="">
+                                <option label="Год выпуска"></option>
+                                <option value="">2012г.-2013г.</option>
+                                <option value="">2014г.-2015г.</option>
+                                <option value="">2016г.-2017г.</option>
+                                <option value="">2018г.-2019г.</option>
+                                <option value="">2020г.</option>
+                            </select>
+                            <div class="form__btn">
+                                <input type="submit" value="Подобрать авто"> 
+                            </div>
+                        </div>  
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="calculator">
+        <div class="title__bg"></div>
+        <div class="title">
+            Таможенное оформление.
+        </div>  
+        <div class="calculator__wrapper">
+            <div class="container">
+                <div class="calculator__text">
+                    Команда U.S.A. KREMEN.AUTO поможет Вам быстро и без проблем растаможить автомобиль. С нами Вы экономите своё время и проходите таможенное оформление дешевле в среднем на 300 $.
+                </div>
+                <div class="calculator__title">
+                    Посчитать стоимость растаможки.
+                </div>
+                <div class="calculator__box">
+                    <div class="calculator__btn-top">
+                        <ul>
+                            <li>Легковые</li>
+                            <li>Гибрид</li>
+                            <li>Электро</li>
+                        </ul>
+                    </div>
+                    <div class="calculator__row">
+                        <div class="calculator__btn-left">
+                            <ul>
+                                <li>Стоимость</li>
+                                <li>Объем двигателя</li>
+                                <li>Тип двигателя</li>
+                                <li>Год выпуска</li>
+                            </ul>
+                        </div>
+                        <div class="calculator__btn-right">
+                            <select name="" id="">
+                                <option value="">6 000$</option>
+                                <option value="">7 000$</option>
+                                <option value="">8 000$</option>
+                                <option value="">9 000$</option>
+                                <option value="">10 000$</option>
+                                <option value="">11 000$</option>
+                                <option value="">12 000$</option>
+                                <option value="">13 000$</option>
+                                <option value="">14 000$</option>
+                                <option value="">15 000$</option>
+                                <option value="">16 000$</option>
+                                <option value="">17 000$</option>
+                                <option value="">18 000$</option>
+                                <option value="">19 000$</option>
+                                <option value="">20 000$</option>
+                                <option value="">21 000$</option>
+                                <option value="">22 000$</option>
+                                <option value="">23 000$</option>
+                                <option value="">24 000$</option>
+                                <option value="">25 000$</option>
+                                <option value="">26 000$</option>
+                                <option value="">27 000$</option>
+                                <option value="">28 000$</option>
+                                <option value="">29 000$</option>
+                                <option value="">30 000$</option>
+                            </select>
+                            <select name="" id="">
+                                <option >0.5</option>
+                                <option value="">0.6 L</option>
+                                <option value="">0.7 L</option>
+                                <option value="">0.8 L</option>
+                                <option value="">0.9 L</option>
+                                <option value="">1 L</option>
+                                <option value="">1.1 L</option>
+                                <option value="">1.2 L</option>
+                                <option value="">1.3 L</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">Бензин</option>
+                                <option value="">Дизель</option>
+                            </select>
+                            <select name="" id="">
+                                <option >2012г.</option>
+                                <option value="">2013г.</option>
+                                <option value="">2014г.</option>
+                                <option value="">2015г.</option>
+                                <option value="">2016г.</option>
+                                <option value="">2017г.</option>
+                                <option value="">2018г.</option>
+                                <option value="">2019г.</option>
+                                <option value="">2020г.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator__btn-button">
+                    <a href="#">Рассчитать стоимость</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process">
+        <div class="process__title">
+            Процесс растаможевания.
+        </div>
+        <div class="container">
+            <div class="process__items"> 
+                <div class="process__items-1">
+                    <div class="process__item"> 
+                        <div class="process__item-img1">
+                            <img src="./img/process-1.jpg" alt="">
+                        </div>
+                        <div class="process__item-title">
+                            Сбор пакета документов и оформление декларации.
+                        </div>
+                        <div class="process__item-text">
+                            Для растаможки авто из США необходимы следующие документы: ксерокопия паспорта и кода, ксерокопия и оригиналы инвойса и тайтла, доверенность на брокера.
+                        </div>
+                    </div>    
+                     <div class="process__item"> 
+                        <div class="process__item-img2">
+                            <img src="./img/process-2.jpg" alt="">
+                        </div>
+                        <div class="process__item-title">
+                            Оформление таможенной декларации.
+                        </div>
+                        <div class="process__item-text">
+                            Наш таможенный брокер на основе ваших документов в кратчайшие сроки оформляет предварительную декларацию, а потом таможенную декларацию на импорт машины из США и подаёт их в таможенные органы. Данный процесс занимает от3 до 14 рабочих дней.
+                        </div>
+                    </div>  
+            </div>   
+            <div class="border__item"></div> 
+            <div class="process__items">   
+                <div class="process__items-2">
+                    <div class="process__item"> 
+                        <div class="process__item-img3">
+                            <img src="./img/process-3.jpg" alt="">
+                        </div>
+                        <div class="process__item-title">
+                            Расчет таможенных платежей за автомобиль из Америки .
+                        </div>
+                        <div class="process__item-text">
+                            Сумма таможенного платежа состоит из пошлины, акциза и НДС. Воспользуйтесь нашим таможенным калькулятором, чтобы расчитать сколько стоит растаможка авто из Штатов.
+                        </div>
+                    <div class="process__item"> 
+                        <div class="process__item-img4">
+                            <img src="./img/process-4.jpg" alt="">
+                        </div>
+                        <div class="process__item-title">
+                            Выпуск авто из зоны таможенного контроля.
+                        </div>
+                        <div class="process__item-text">
+                            Выпуск авто произходит после оформления всез необходимых документов, растаможка авто из США завершена. Далее авто можно грузить на автовоз и отправлять в ваш город.
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>  
+        <div class="process__togo">
+            <a href="#"><img src="img/process-togo.svg" alt="" /></a>
+          </div> 
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
 
+                </div>
+                <div class="footer__info">
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/libs.min.js"></script>    
-<script src="js/main.js"></script>
-
-</body>
+                </div>
+                <div class="footer__media">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
